@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+  <script src="../JS/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../CSS/Style1.css">
+  <link rel="stylesheet" href="../CSS/CV.css">
+  <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <a href="#"><img src="../Image/logo.png" alt="" width="80px" height="80px"></a>
+      <ul class="nav">
+        <li><a class="nav-link" href="Trangchuu.html">TRANG CHỦ</a></li>
+        <li><a class="nav-link" href="../HTML/timvieclam.html">TÌM VIỆC LÀM</a></li>
+        <li><a class="nav-link" href="../HTML/CVhay.html">CV HAY</a></li>
+        <li><a class="nav-link" href="#">CÔNG CỤ</a>
+          <ul>
+            <li><a href="congcutinhthuethunhapcanhan.html">Công cụ tính thuế thu nhập</a></li>
+            <li><a href="congcutinhlaikep.html">Công cụ tính lãi kép</a></li>
+            <li><a href="congcutinhtientietkiem.html">Công cụ tính tiết kiệm</a></li>
+            <li><a href="congcutinhluong.html">Công cụ tính lương</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+    <div class="dndk">
+      <a role="button" class="btn btn-outline-success" href="../HTML/Dangnhap.html" style="padding: 15px;">Đăng nhập</a>
+      <a role="button" class="btn btn-success" href="../HTML/DangKy.html" style="padding: 15px;">Đăng ký</a>
+      <a role="button" class="btn btn-secondary" href="#" style="padding: 15px;">Đăng tuyển & tìm hồ sơ</a>
+      <button type="button" class="btn btn-success" style="padding: 15px;" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Điều
+                    khoản</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Điều khoản ForMan</h5>
+                                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p style="text-align: left">1.Khi đăng ký bất cứ Dịch vụ nào của 4Man, bạn sẽ được yêu
+                                    cầu cung cấp một số thông tin cá nhân nhất
+                                    định để thiết lập tài khoản của bạn, để xác thực danh tính theo quy định của pháp
+                                    luật hiện hành
+                                    (bao gồm cả các lần cập nhật). <br>
+                                    2.Bạn không thể hạn chế việc xử lý thông tin cá nhân của bạn cho các mục đích quy
+                                    định tại Khoản 1
+                                    nêu trên bởi đây là mục đích của bạn khi sử dụng dịch vụ của ForMan và là cách để
+                                    ForMan có thể đáp
+                                    ứng dịch vụ của bạn . Nếu bạn <br>
+                                    không đồng ý để ForMan xử lý thông tin cá nhân của bạn cho các mục đích trên, bạn phải
+                                    chấm dứt thỏa
+                                    thuận liên quan của bạn với ForMan cho các Dịch vụ của ForMan và ngừng sử dụng các Dịch
+                                    vụ do ForMan cung
+                                    cấp. <br>
+                                    3.ForMan sẽ yêu cầu sự đồng ý của bạn trước khi xử lý thông tin cá nhân ngoài các
+                                    mục quy định tại
+                                    Khoản 1 Điều này. <br> 
+                                    4.ForMan nỗ lực hạn chế quyền truy cập vào Cơ Sở Dữ Liệu Hồ Sơ
+                                    ForMan mà chỉ dành
+                                    cho những người đã đăng ký với
+                                    các Dịch vụ của ForMan, những người này có thể giữ lại một bản sao của hồ sơ của bạn
+                                    trong các tập
+                                    tin hoặc cơ sở dữ liệu riêng của họ. Tuy nhiên, trong mọi trường hợp, bạn là người
+                                    có quyền chấp
+                                    thuận hoặc từ chối để Nhà tuyển
+                                    dụng truy cập vào Hồ Sơ của bạn. <br>
+                                    5.Bạn có thể xóa tài khoản của mình bất cứ lúc nào và khi đó 4Man sẽ hủy tất cả
+                                    quyền truy cập đến
+                                    tài khoản và hồ sơ trong cơ sở dữ liệu. Việc xóa tài khoản của bạn sẽ không ảnh
+                                    hưởng đến những hồ
+                                    sơ mà bạn đã gửi đến các Nhà <br>
+                                    tuyển dụng hoặc được lưu xuống bởi các Nhà tuyển dụng, Chủ sở hữu tài khoản (muốn có
+                                    CV) được thực
+                                    hiện trước thời điểm bạn gửi yêu cầu xóa tài khoản đến ForMan. <br>
+                                    6.ForMan không cho phép bất kỳ bên thứ ba nào được phép chia sẻ lại thông tin đã
+                                    được cung cấp cho
+                                    một bên khác hoặc sử dụng không đúng mục đích đã được ký kết trong hợp đồng với
+                                    ForMan.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="form-check" style="text-align: left;">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Bạn đã chắc chắn đã <span style="color: red;">đọc hết</span> và <span style="color: red;">chấp
+                                        nhận</span> mọi điều khoản của <span style="color: red;">ForMan</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+  </header>
+  <br>
+  <br>
+  <div>
+    <img src="../Image/We are here for you !.png" alt="" width="1473px">
+  </div>
+  <h2> <span style="color:gold; font-style: italic;">CV hay tạo ấn tượng ngay tức thì với </span> <br>
+    <span style="color: gold; font-style: italic;"> nhà tuyển dụng hàng đầu </span>
+  </h2>
+  <div class="conten0">
+    <div class="dropdown">
+      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+        aria-expanded="false" style="padding: 5px; margin: 9px; width: 200px;">
+        Ngôn ngữ
+      </button>
+      <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="#">Tiếng Việt</a></li>
+        <li><a class="dropdown-item" href="#">Tiếng Nhật</a></li>
+        <li><a class="dropdown-item" href="#">Tiếng Anh</a></li>
+        <li><a class="dropdown-item" href="#">Tiếng Tây Ban Nha</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+        aria-expanded="false" style="padding: 5px; margin: 9px; width: 200px;">
+        Ngành nghề
+      </button>
+      <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="#">Kinh doanh bán hàng</a></li>
+        <li><a class="dropdown-item" href="#">Kỹ sư phần mềm</a></li>
+        <li><a class="dropdown-item" href="#">GIáo dục</a></li>
+        <li><a class="dropdown-item" href="#">Kỹ sư</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+        aria-expanded="false" style="padding: 5px; margin: 9px; width: 200px;">
+        Tất cả các thiết kế
+      </button>
+      <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="#">Đơn giản</a></li>
+        <li><a class="dropdown-item" href="#">Phức tạp</a></li>
+        <li><a class="dropdown-item" href="#">Thanh lịch</a></li>
+        <li><a class="dropdown-item" href="#">Kinh nghiệm</a></li>
+        <li><a class="dropdown-item" href="#">Màu sắc</a></li>
+        <li><a class="dropdown-item" href="#">Sáng tạo</a></li>
+        <li><a class="dropdown-item" href="#">Chuyên nghiệp</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+        aria-expanded="false" style="padding: 5px; margin: 9px; width: 200px;">
+        Kinh nghiệm
+      </button>
+      <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="#">1-2 năm</a></li>
+        <li><a class="dropdown-item" href="#">2-3 năm</a></li>
+        <li><a class="dropdown-item" href="#">3-4 năm</a></li>
+        <li><a class="dropdown-item" href="#">4-5 năm</a></li>
+        <li><a class="dropdown-item" href="#">Trên 5 năm</a></li>
+      </ul>
+    </div>
+    <div class="form-check" style="padding: 15px; margin-left: 15px;">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Cập nhật mới nhất
+      </label>
+    </div>
+    <button type="button" class="btn btn-success" style="padding: 5px; margin: 9px;  background-color: blue; ">Tìm
+      kiếm</button> <br>
+  </div>
+  <div class="center">
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành du lịch
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành báo chí
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành nha sĩ
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành nha sĩ
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành nha sĩ
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành thời trang
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành thời trang
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành giáo dục
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành giáo dục
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; border-color: green;">
+      <img src="../Image/cv6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          CV về ngành giáo dục
+        </p>
+        <a href="#" class="btn btn-primary">Xem ngay</a>
+        <a href="#" class="btn btn-outline-secondary">Sử dụng mẫu này</a>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 20px;">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Xem thêm</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <hr>
+  <div class="enjoy">
+    <h5 style=" border: 2px dashed black;"><B><span style="color: green;">Tạo CV online miễn phí với các mẫu CV được
+          thiết kế sẵn chỉ với 3 bước: </span></B>
+      <ol>
+        <li><span style="font-size: 15px;">Bước 1: Chọn ngôn ngữ khác / thay đổi tiêu chí gợi ý mẫu CV để TopCV gợi ý
+            các mẫu CV phù hợp với nhu cầu của bạn.</span></li>
+        <li><span style="font-size: 15px;">Bước 2: Chọn mẫu CV miễn phí mà bạn ưng ý nhất và tiến hành viết CV.</span>
+        </li>
+        <li><span style="font-size: 15px;">Bước 3: Sau khi hoàn thiện viết CV, bạn tiến hành lưu CV lại tải CV về dưới
+            dạng PDF hoặc sử dụng link CV online để gửi cho nhà tuyển dụng.</span></li>
+      </ol>
+    </h5>
+
+
+  </div>
+  <div class="enjoy">
+    <h5 style=" border: 2px dashed black;"><B><span style="color: green;">Tại sao lại nên tạo cv <span
+            style="color: red;">online</span> trên ForMan </span></B>
+      <ol>
+        <li><span style="font-size: 15px;">Nhiều mẫu CV đẹp, miễn phí, phù hợp nhu cầu ứng tuyển các vị trí khác
+            nhau.</span></li>
+        <li><span style="font-size: 15px;">Tương tác trực quan, dễ dàng chỉnh sửa thông tin, tạo CV online nhanh chóng
+            trong vòng 5 phút.</span></li>
+        <li><span style="font-size: 15px;">Nhận gợi ý cách viết CV phù hợp cùng các mẫu CV tham khảo chi tiết theo ngành
+            nghề.</span></li>
+        <li><span style="font-size: 15px;">Mẫu CV đồng bộ với các mẫu thư xin việc (Cover Letter).</span></li>
+        <li><span style="font-size: 15px;">Các mẫu CV hỗ trợ đa ngôn ngữ: tiếng Anh / Nhật / Việt.</span></li>
+      </ol>
+    </h5>
+
+
+  </div>
+  <table style="margin-left: 300px;">
+    <form >
+      <tr>
+        <th>Mã số sinh viên</th>
+        <th>Họ tên</th>
+      </tr>
+      <tr>
+        <td>21069471</td>
+        <td>Nguyễn Hoài Phát</td>
+      </tr>
+      <tr>
+        <td>21076421</td>
+        <td>Nguyễn Hữu Phước</td>
+      </tr>
+      <tr>
+        <td>21072771</td>
+        <td>Mai Trọng Nhân</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Đặng Bảo Chánh</td>
+      </tr>
+    </form>
+  </table>
+
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <section class="mb-4">
+        <div class="socials-share">
+          <a class="bg-facebook" href="" target="_blank"><span class="fa fa-facebook"></span> Share</a>
+          <a class="bg-twitter" href="" target="_blank"><span class="fa fa-twitter"></span> Tweet</a>
+          <a class="bg-google-plus" href="" target="_blank"><span class="fa fa-google-plus"></span> Plus</a>
+          <a class="bg-pinterest" href="" target="_blank"><span class="fa fa-pinterest"></span> Pin</a>
+          <a class="bg-email" href="" target="_blank"><span class="fa fa-envelope"></span> Gmail</a>
+        </div>
+      </section>
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+          </div>
+
+      </section>
+      <section class="mb-4">
+        <p>
+          Tầng 9, TTTM Vạn Hạnh Mall, quận 10, Thành phố Hồ Chí Minh
+        </p>
+      </section>
+      <section class="">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Website đối tác</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://vieclam.tuoitre.vn/" class="text-white">vieclam.tuoitre.vn</a>
+              </li>
+              <li>
+                <a href="https://vieclam.vietnamnet.vn/" class="text-white">hvieclam.vietnamnet.vn</a>
+              </li>
+              <li>
+                <a href="https://vieclamit.careerbuilder.vn/" class="text-white">hvieclamit.careerbuilder.vn</a>
+              </li>
+              <li>
+                <a href="https://vieclam.thanhnien.vn/" class="text-white">vieclam.thanhnien.vn</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Xây dựng sự nghiệp</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white">Thiết kế nội thất</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Thiết kế đồ họa</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Nhân viên kinh doanh</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Freelancer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Nhà tuyển dụng</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white">Đăng tuyển dụng</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Tìm hồ sơ</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Sản phẩm dịch vụ</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Tìm kiếm tailent</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Liên hệ</h5>
+
+            <ul class="list-unstyled mb-0">
+              Địa chỉ: TTTM Vạn Hạnh Mall <br>
+              Liên hệ: 012344566 <br>
+              Email: ForMan@gmail.com
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://ForMan.com/">ForMan.com</a>
+    </div>
+  </footer>
+</body>
+
+</html>

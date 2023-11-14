@@ -1,0 +1,57 @@
+header {
+    width: 100%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .nav {
+    margin-top: 20px;
+    margin-left: 50px
+  }
+
+  .nav li a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .dndk {
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+
+  .container1 {
+    background-image: url(../Image/baccc.png);
+    background-size: 1400px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .backrau {
+    width: 74%;
+    margin-left: 194px;
+  }
+
+  header ul.nav>li>ul {
+    background-color: green;
+    border-radius: 5px;
+    border-color: black;
+    position: absolute;
+    list-style: none;
+    top: 80px;
+    left: 460px;
+    display: none;
+  }
+
+  header ul.nav>li:hover>ul {
+    display: block;
+  }
+
+  header ul.nav>li>ul>li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }

@@ -1,0 +1,78 @@
+.card{
+    display: inline-block;
+    margin: 5px;
+    
+}
+.card-text{
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center{
+  text-align: center;
+
+}
+.conten0{
+  display: flex;
+  background-color: green;
+  height: 50px;
+  width: 90%;
+  text-align: center;
+  margin-left: 69px;
+  border-radius: 10px;
+  border-color: green;
+}
+#cv{
+  margin-top: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: gold;
+}
+#myCheckbox{
+  margin: 10px;
+}
+header{
+width: 100%;
+border-color: green ;
+height: 50px;
+}
+.menu{
+
+display: flex;
+}
+.nav{
+margin-top: 20px;
+margin-left: 50px
+}
+.nav li a{
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+.dndk{
+margin-top: 10px;
+margin-right: 30px;
+}
+.content{
+background-color: rgb(225, 225, 225);
+}
+.enjoy{
+  width: 80%;
+  margin-left: 70px;
+  width: 1200px;
+}
+header ul.nav>li>ul{
+  background-color: green;
+  border-radius: 5px;
+  border-color: black;
+  position: absolute; 
+  list-style: none;
+  top: 80px;
+  left: 460px;
+  display: none;
+}
+header ul.nav>li:hover>ul{
+  display: block;
+}
+header ul.nav>li>ul>li{
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
